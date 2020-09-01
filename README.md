@@ -1,5 +1,5 @@
 # Simple Search Engine
-This is the repo for my [Simple Search Engine](https://hyperskill.org/projects/89?goal=347) JetBrains Academy Project
+This is the repo for my [Seam Carving](https://hyperskill.org/projects/89?goal=347) JetBrains Academy Project
 
 # About
 Seam carving is an image processing technique for content aware image resizing.
