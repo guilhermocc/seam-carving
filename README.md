@@ -36,7 +36,7 @@ For the following sky.png:
 
 sky-reduced.png should look like this:
 
-![alt text](hhttps://lh3.googleusercontent.com/_Ym63YhQvvucO8qUSYkpxas2nKdTGTLcRUH_lc7t91f8x7kLwoKk9KX_kbhvKhi3sxQiRadV59evKPcDkehx8rEKM86eSaPP9uhafmliHco6b7TZVGxp_L7ac49H8h2Uc_WL4VRy)
+![alt text](https://lh3.googleusercontent.com/_Ym63YhQvvucO8qUSYkpxas2nKdTGTLcRUH_lc7t91f8x7kLwoKk9KX_kbhvKhi3sxQiRadV59evKPcDkehx8rEKM86eSaPP9uhafmliHco6b7TZVGxp_L7ac49H8h2Uc_WL4VRy)
 
 
 Example 2:
