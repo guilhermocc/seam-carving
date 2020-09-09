@@ -11,16 +11,3 @@ fun main(args: Array<String>) {
     val bufferedInputImage: BufferedImage = ImageIO.read(File(inputFile))
     ImageIO.write(bufferedInputImage.invertImageColors(), "png", File(outputFile))
 }
-
-fun BufferedImage.invertImageColors(): BufferedImage =
-    this.apply {
-        repeat(this.width) { x ->
-            repeat(this.height) { y ->
-                val currentColor = Color(this.getRGB(x, y))
-                this.setRGB(
-                    x, y, Color(255 - currentColor.red, 255 - currentColor.green, 255 - currentColor.blue).rgb
-                )
-            }
-        }
-    }
-
