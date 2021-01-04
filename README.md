@@ -52,4 +52,4 @@ trees-reduced.png should look like this:
 ![alt text](https://lh6.googleusercontent.com/jjA12yuFxhRWVebJu67Nrqdru6iNi77ak3_UjP6C54LPatfnjYKL1FplB8D2G0WpZhqK6qIRgA65gbOEQFigu99Nx1H-SvhVWhOscUJvlpYDN4LZynRXn__nR5131iIRZFWr8pRX)
 
 # Evolution
-I will be elaborated soon as i finish the final version
+It will be elaborated soon as i finish the final version
