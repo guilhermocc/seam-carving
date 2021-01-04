@@ -1,4 +1,4 @@
-# Simple Search Engine
+# Seam Carving
 This is the repo for my [Seam Carving](https://hyperskill.org/projects/89?goal=347) JetBrains Academy Project
 
 # About
