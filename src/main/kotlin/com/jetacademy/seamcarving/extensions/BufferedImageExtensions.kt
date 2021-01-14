@@ -53,19 +53,11 @@ fun pixelEnergy(x: Int, y: Int, image: BufferedImage): Double {
         image.height - 1 -> y - 1
         else -> y
     }
-    return sqrt(
-        Δx(
-            xn,
-            y,
-            image
-        ) + Δy(x, yn, image)
-    )
+    return sqrt(Δx(xn, y, image) + Δy(x, yn, image))
 }
 
 fun Δx(x: Int, y: Int, image: BufferedImage) =
-    Rx(x, y, image)
-        .pow(2) + Gx(x, y, image)
-        .pow(2) + Bx(x, y, image).pow(2)
+    Rx(x, y, image).pow(2) + Gx(x, y, image).pow(2) + Bx(x, y, image).pow(2)
 
 fun Rx(x: Int, y: Int, image: BufferedImage) =
     Color(image.getRGB(x - 1, y)).red - Color(image.getRGB(x + 1, y)).red
@@ -77,9 +69,7 @@ fun Bx(x: Int, y: Int, image: BufferedImage) =
     Color(image.getRGB(x - 1, y)).blue - Color(image.getRGB(x + 1, y)).blue
 
 fun Δy(x: Int, y: Int, image: BufferedImage) =
-    Ry(x, y, image)
-        .pow(2) + Gy(x, y, image)
-        .pow(2) + By(x, y, image).pow(2)
+    Ry(x, y, image).pow(2) + Gy(x, y, image).pow(2) + By(x, y, image).pow(2)
 
 fun Ry(x: Int, y: Int, image: BufferedImage) =
     Color(image.getRGB(x, y - 1)).red - Color(image.getRGB(x, y + 1)).red
